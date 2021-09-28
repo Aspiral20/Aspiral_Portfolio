@@ -221,13 +221,13 @@ a {
 
   #footer-container {
     display: grid;
-    justify-content: end;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
 
-    span {
+    .footer-info {
       font-family: "Gilroy-Light", sans-serif;
       font-size: 13px;
-      color: rgba(247, 248, 246, 0.8);
-      color: white;
+      color: rgba(255, 255, 255, 0.75);
     }
   }
 }
