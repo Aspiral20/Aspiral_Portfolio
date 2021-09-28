@@ -1,0 +1,133 @@
+//*-1171
+@media screen and (max-width: 1170px) {
+  #fon {
+    grid-template-columns: auto 984px auto;
+  }
+}
+
+//1170-1025
+@media screen and (max-width: 1024px) {
+  #fon {
+    grid-template-columns: auto 728px auto;
+  }
+
+  #header {
+    #header-container {
+      #header-menu {
+        width: calc(570px / 3);
+      }
+    }
+  }
+
+}
+
+//1024-768
+@media screen and (max-width: 768px) {
+  #fon {
+    grid-template-columns: auto 385px auto;
+  }
+
+  #header {
+    #header-container {
+      grid-template-columns: auto;
+      justify-content: center;
+      #header-logo {
+        order: 1;
+      }
+      #header-menu {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        margin-top: 7px;
+        #Home {
+          display: none;
+        }
+      }
+      #header-contact {
+        order: 2;
+        #changeLanguage {
+          order: 1;
+        }
+        #contactMe {
+          order: 2;
+          font-size: 15px;
+        }
+        #photo-contact {
+          order: 3;
+        }
+      }
+    }
+  }
+  #main {
+    #main-container {
+      #main-text {
+        margin-top: 35px;
+        h2 {
+          font-size: 50px;
+        }
+        .text {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+  #footer {
+    #footer-container {
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+//768-425
+@media screen and (max-width: 425px) {
+  #fon {
+    grid-template-columns: auto 335px auto;
+  }
+}
+
+//425-375
+@media screen and (max-width: 375px) {
+  #fon {
+    grid-template-columns: auto 300px auto;
+  }
+
+  .bottomBar {
+    .bottomBar-item {
+      font-size: 14px;
+    }
+  }
+
+  #header {
+    #header-container {
+      #header-contact {
+        #contactMe {
+          font-size: 14px;
+        }
+      }
+      #header-menu {
+        .item {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  #main {
+    #main-container {
+      #main-text {
+        h2 {
+          font-size: 45px;
+        }
+        .text {
+          font-size: 26px;
+        }
+      }
+    }
+  }
+}
+
+//374-320
+@media screen and (max-width: 320px) {
+}
