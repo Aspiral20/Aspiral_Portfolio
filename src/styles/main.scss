@@ -1,4 +1,3 @@
-
 body, h2 {
   margin: 0;
   padding: 0;
@@ -11,7 +10,7 @@ a {
   text-decoration: none;
 }
 
-.bottomBar { //for using, put in front of div bottom bar, position:relative.
+.bottomBar {          //for using, put in front of div bottom bar, position:relative.
   display: flex;
   justify-content: center;
   flex-direction: column;

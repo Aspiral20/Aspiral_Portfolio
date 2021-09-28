@@ -17,9 +17,9 @@ exports.sass = function () {
         //Concat all files CSS
         .pipe(concatCss("main.css"))
         //Minimize file
-        .pipe(cssmin())
+        // .pipe(cssmin())
         //File.min.css
-        .pipe(rename({suffix: '.min'}))
+        // .pipe(rename({suffix: '.min'}))
         //Сохранить в папку dist
         .pipe(dest('./dist'));
 }
