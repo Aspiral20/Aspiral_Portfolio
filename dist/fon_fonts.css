@@ -1,0 +1,22 @@
+#fon {
+    background-image: url("../images/fon2.jpg");
+}
+#header-contact #photo-contact {
+    background-image: url("../images/contactMe.jpg");
+}
+@font-face {
+    font-family: 'Stick-No-Bills';
+    src: url('/fonts/Stick_No_Bills/StickNoBills-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Arima-Madurai-ExtraBold';
+    src: url('/fonts/Arima_Madurai/ArimaMadurai-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Arima-Madurai-Medium';
+    src: url('/fonts/Arima_Madurai/ArimaMadurai-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Arima-Madurai-Regular';
+    src: url('/fonts/Arima_Madurai/ArimaMadurai-Regular.ttf') format('truetype');
+}
