@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'StickNoBills-ExtraBold';
+    src: local('StickNoBills-ExtraBold'), local('StickNoBills-ExtraBold'),
+            url('Stick_No_Bills/StickNoBills-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ArimaMadurai-ExtraBold';
+    src: local('ArimaMadurai-ExtraBold'), local('ArimaMadurai-ExtraBold'),
+            url('Arima_Madurai/ArimaMadurai-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ArimaMadurai-Medium';
+    src: local('ArimaMadurai-Medium'), local('ArimaMadurai-Medium'),
+            url('Arima_Madurai/ArimaMadurai-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ArimaMadurai-Regular';
+    src: local('ArimaMadurai-Regular'), local('ArimaMadurai-Regular'),
+            url('Arima_Madurai/ArimaMadurai-Regular.ttf') format('truetype');
+}
