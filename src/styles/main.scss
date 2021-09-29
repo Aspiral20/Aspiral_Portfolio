@@ -163,6 +163,7 @@ a {
       }
 
       #contactMe {
+        position: relative;
         width: 160px;
         border-radius: 10px;
         margin-left: 10px;
@@ -175,6 +176,16 @@ a {
         cursor: pointer;
         border: 0;
         font-family: "Gilroy-Regular", sans-serif;
+        &::before {
+          content: '';
+          position: absolute;
+          left: -24px;
+          top: 17.5px;
+          border-left: 12px solid transparent;
+          border-top: 12px solid transparent;
+          border-bottom: 12px solid transparent;
+          border-right: 12px solid #1291EE;
+        }
       }
     }
   }
@@ -228,6 +239,49 @@ a {
       font-family: "Gilroy-Light", sans-serif;
       font-size: 13px;
       color: rgba(255, 255, 255, 0.75);
+    }
+  }
+}
+
+#contactMeOn {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  #contactMeOn-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 0 black;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 300px;
+    .item-contact {
+      padding: 20px;
+      color: rgba(200,241,234,.8);
+      font-size: 16px;
+      &:hover {
+        opacity: .7;
+      }
+    }
+    #closeContact {
+      cursor: pointer;
+      position: absolute;
+      right: 17px;
+      top: 15px;
+      color: rgba(200,241,234,.5);
+      font-size: 22px;
+      &:hover {
+        opacity: .7;
+      }
     }
   }
 }

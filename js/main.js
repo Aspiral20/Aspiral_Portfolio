@@ -66,4 +66,16 @@ $(document).ready(() => {
         changeLanguageBottomBar.addClass('hide');
     });
 
+
+    $(bottomBarItem[0]).on('click', () => {
+        $('#contactMeOn').css('display', 'flex');
+    });
+
+    $('#closeContact, #contactMeOn').on('click', (e) => {
+        if (e.target.id === 'closeContact' || e.target.id === 'contactMeOn') {
+            $('#contactMeOn').hide();
+        }
+    });
+
+
 });
